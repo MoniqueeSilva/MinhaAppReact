@@ -1,19 +1,6 @@
-.cards-container .card {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
 .imagem-card {
-  height: 200px;       /* tamanho fixo */
-  object-fit: cover;  /* corta sem distorcer */
-}
-
-.cards-container .card-body {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  height: 200px;     
+  object-fit: cover;
 }
 
 .cards-container {

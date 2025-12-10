@@ -1,32 +1,23 @@
-import { Carousel, Image } from "react-bootstrap";
+import { Carousel, Container, Image } from "react-bootstrap";
 import "./style/Carrousel.css";
 
 const Carrousel = () => {
   return (
-    <div className="carrousel-container">
-      <Carousel>
-        <Carousel.Item interval={2000}>
-          <Image
-            className="imagem-carrossel"
-            src="/src/assets/estudante.jpg"
-          />
+    <Container>
+       <Carousel>
+        <Carousel.Item>
+          <Image className="imagem-carrossel" src="/src/assets/Carrousel/estudantes.jpg"/>
         </Carousel.Item>
 
-        <Carousel.Item interval={2000}>
-          <Image
-            className="imagem-carrossel"
-            src="/src/assets/grupoEstudando.jpg"
-          />
+        <Carousel.Item>
+          <Image className="imagem-carrossel" src="/src/assets/Carrousel/papel.jpg"/>
         </Carousel.Item>
 
-        <Carousel.Item interval={2000}>
-          <Image
-            className="imagem-carrossel"
-            src="/src/assets/livros.jpg"
-          />
+        <Carousel.Item>
+          <Image className="imagem-carrossel" src="/src/assets/Carrousel/quadro.jpg"/>
         </Carousel.Item>
       </Carousel>
-    </div>
+    </Container>
   );
 };
 

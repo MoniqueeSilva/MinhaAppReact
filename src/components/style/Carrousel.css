@@ -6,5 +6,5 @@
 
 .imagem-carrossel {
     width: 100%;
-    height: auto;
+    height: 400px; /* escolhe a altura que tu quiser */
 }
