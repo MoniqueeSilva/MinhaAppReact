@@ -1,6 +1,6 @@
 import { Button } from 'react-bootstrap';
 import { useState } from "react";
-import Carrousel from "./Carrousel";
+import Carrousel from "./Carousel";
 import Cards from "./Cards";
 
 const Main = () => {

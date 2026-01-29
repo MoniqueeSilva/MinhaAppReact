@@ -1,15 +1,11 @@
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import Main from '../components/Main';
+import Carousel from "../components/Carousel"
+import Cards from "../components/Cards"
 
-const Home = () => {
+export default function Home() {
   return (
     <>
-      <Header />
-      <Main />
-      <Footer />
+      <Carousel />
+      <Cards />
     </>
-  );
-};
-
-export default Home;
+  )
+}

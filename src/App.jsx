@@ -1,16 +1,16 @@
 import { Routes, Route } from "react-router-dom"
-import Template from "./components/Template"
-import Home from "./components/Home"
-import Rodape from "./components/Rodape"
+import Template from "./layouts/Template"
+import Home from "./views/Home"
+import Instituicoes from "./views/Instituicoes"
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Template />}>
-        <Route index element={<Home />} />
-        <Route path="sobre" element={<Rodape />} />
-      </Route>
-    </Routes>
+      <Routes> //declaração dos endereços das páginas
+        <Route path="/" element={<Template />}> //usar o tamplate como estrutura
+          <Route index element={<Home />} /> //página padrão das rotas
+          <Route path ="instituicoes" element={<Instituicoes />}></Route> //rota para nova página
+        </Route>
+      </Routes>
   )
 }
 
